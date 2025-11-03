@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - master
+#jobs:
+#  deploy:
+#    if: github.repository == '[Organization 이름]/[Organization 레포지토리 이름]'
+#    runs-on: ubuntu-22.04
 
 jobs:
   deploy:
