@@ -7,6 +7,8 @@
     Docker는 애플리케이션을 컨테이너라는 표준화된 단위로 패키징하여, 
     개발부터 테스트, 배포까지 전 과정에서 일관성 있고 안정적인 실행을 가능하게 하는 컨테이너 기술이다.
 
+<br>
+
 ### Docker의 주요 개념
 
   - **Image**: 실행 가능한 환경과 코드를 담은 템플릿(=컨테이너의 설계도)
@@ -23,6 +25,8 @@
         CI/CD는 개발자가 코드를 Push하면 자동으로
     	빌드(Build) → 테스트(Test) → 배포(Deploy)가 진행되도록 해준다.
 
+<br>
+
 ### GitHub Secrets 설정
   - 코드 내에 서버 정보나 비밀키를 직접 노출하지 않기 위해 GitHub의 `Settings → Secrets and variables → Actions` 에 변수를 등록해준다.
 
@@ -33,11 +37,13 @@
     | **EC2_HOST** | 배포 대상 EC2의 IP | `9.27.xxx.xxx` |
     | **EC2_USER** | EC2 계정명 | `ubuntu` |
     | **EC2_KEY** | EC2 SSH 개인키(`.pem` 파일 전체 복사) | `-----BEGIN OPENSSH PRIVATE KEY----- ...` |
+    
 <br>
 
 ### GitHub Actions(워크플로우 자동화 도구)
 
 	GitHub에서 제공하는 CI/CD 서비스로, 저장소 내 `.github/workflows/` 폴더에 YML 파일을 작성하여 배포 파이프라인을 구성한다.
+	
 <br>
 
 ### Workflow 파일 및 Dockerfile 파일
