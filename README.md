@@ -41,6 +41,8 @@
 > 모든 민감 정보는 `${{ secrets.변수명 }}` 형식으로 `.yml` 파일 내부에서 참조한다.  
 > 코드에 직접 키를 작성하지 않아도 GitHub Actions 실행 시 자동으로 값이 주입된다.
 ---
+
+#### CI/CD 워크플로우 단계 
 <img width="1920" height="1080" alt="CI_CD" src="https://github.com/user-attachments/assets/f95425b9-dcf0-43b4-b5e1-5d1038444235" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
