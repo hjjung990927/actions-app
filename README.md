@@ -18,7 +18,8 @@
   - CI(Continuous Integration): 코드 변경 사항을 주기적으로 통합하고 자동으로 빌드 및 테스트하는 과정
   - CD(Continuous Deployment): 통합된 애플리케이션을 자동으로 서버에 배포하는 과정
 
-        CI/CD는 개발자가 코드를 Push하면 자동으로 빌드(Build) → 테스트(Test) → 배포(Deploy)가 진행되도록 해준다.
+        CI/CD는 개발자가 코드를 Push하면 자동으로
+    	빌드(Build) → 테스트(Test) → 배포(Deploy)가 진행되도록 해준다.
 
 #### GitHub Secrets 설정
   - 코드 내에 서버 정보나 비밀키를 직접 노출하지 않기 위해 GitHub의 `Settings → Secrets and variables → Actions` 에 변수를 등록해준다.
