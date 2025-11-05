@@ -42,7 +42,8 @@
 
 ### GitHub Actions(워크플로우 자동화 도구)
 
-	GitHub에서 제공하는 CI/CD 서비스로, 저장소 내 `.github/workflows/` 폴더에 YML 파일을 작성하여 배포 파이프라인을 구성한다.
+	GitHub에서 제공하는 CI/CD 서비스로, 
+	저장소 내 `.github/workflows/` 폴더에 YML 파일을 작성하여 배포 파이프라인을 구성한다.
 	
 <br>
 
