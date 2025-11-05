@@ -36,6 +36,7 @@
   - GitHub에서 제공하는 CI/CD 서비스로, 저장소 내 `.github/workflows/` 폴더에 YML 파일을 작성하여 배포 파이프라인을 구성한다.
 
 	➡️ [배포 워크플로우 파일 보기 (.github/workflows/ec2_aws_deploy.yml)](./.github/workflows/ec2_aws_deploy.yml)
+	➡️ [Dockerfile 파일 보기 (.Dockerfile)](.Dockerfile)
 	
 
 > 모든 민감 정보는 `${{ secrets.변수명 }}` 형식으로 `.yml` 파일 내부에서 참조한다.  
