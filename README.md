@@ -35,9 +35,12 @@
 #### GitHub Actions(워크플로우 자동화 도구)
   - GitHub에서 제공하는 CI/CD 서비스로, 저장소 내 `.github/workflows/` 폴더에 YML 파일을 작성하여 배포 파이프라인을 구성한다.
 
-	➡️ [배포 워크플로우 파일 보기 (.github/workflows/ec2_aws_deploy.yml)](./.github/workflows/ec2_aws_deploy.yml)
-	<br>
-	➡️ [Dockerfile 파일 보기 (.Dockerfile)](Dockerfile)
+#### Workflow 파일 및 Dockerfile 파일
+
+| 파일 | 설명 | 링크 |
+|------|--------|--------|
+|`ec2_aws_deploy.yml`| GitHub Actions 배포 설정| 🔗 [보기](https://github.com/hjjung990927/actions-app/blob/master/.github/workflows/ec2_aws_deploy.yml)|
+|`Dockerfile`| Docker 빌드 설정| 📦 [보기](https://github.com/hjjung990927/actions-app/blob/master/Dockerfile)|
 	
 
 > 모든 민감 정보는 `${{ secrets.변수명 }}` 형식으로 `.yml` 파일 내부에서 참조한다.  
